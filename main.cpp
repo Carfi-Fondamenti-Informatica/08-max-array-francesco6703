@@ -6,7 +6,6 @@ int i;
 int a;
 int numeri[i];
 std::cin >> i;
-int x=1, max=numeri[0];
     for (int a=0; a<i; a++)
     {
         std::cin >> numeri[a];
