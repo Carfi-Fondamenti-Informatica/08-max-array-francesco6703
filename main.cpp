@@ -2,15 +2,11 @@
 #include "lib.h"
 
 int main() {
-int i;
-int a;
-int numeri[i];
-std::cin >> i;
-    for (int a=0; a<i; a++)
-    {
-        std::cin >> numeri[a];
-    }
-
-std::cout << funzione(numeri, i);
+int i=0;
+int a=0;
+int max;
+int numeri[a];
+max = funzione(numeri, i);
+std::cout << max;
 return 0;
 }
