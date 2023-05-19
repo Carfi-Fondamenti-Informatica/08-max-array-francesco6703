@@ -1,2 +1,1 @@
 int funzione (int[], int);
-
