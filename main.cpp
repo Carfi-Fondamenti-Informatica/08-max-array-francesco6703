@@ -1,6 +1,6 @@
 #include <iostream>
 #include "lib.h"
-
+ 
 int main() {
 int i;
 int a;
