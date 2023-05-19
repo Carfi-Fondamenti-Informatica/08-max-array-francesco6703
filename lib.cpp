@@ -1,8 +1,13 @@
 #include "lib.h"
-
 int funzione(int numeri[], int i)
 {
-    int x=1, max=numeri[0];
+std::cin >> i;
+int x=1;
+	for (int a=0; a<i; a++)
+    {
+    	std::cin >> numeri[a];
+    }
+    int max=numeri[0];
     while (x<i)
     {
         if(numeri[x]>max)
