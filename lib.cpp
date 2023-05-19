@@ -1,4 +1,4 @@
-#include "lib.h"
+#include "lib.h";
 
 float funzione(int numeri[], int i)
 {
