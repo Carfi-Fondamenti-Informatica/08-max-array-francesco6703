@@ -1,1 +1,1 @@
-float funzione (int, int)
+int funzione (int, int)
