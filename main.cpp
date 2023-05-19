@@ -1,5 +1,17 @@
 #include <iostream>
+#include "lib.h"
 
-int main(){
-  return 0;
+int main() {
+int i;
+int a;
+int max;
+int numeri[i];
+cin >> i;
+for (a=0; a<i; a++)
+    {
+    	cin >> numeri[a];
+    }
+max=funzione(numeri, i);
+cout << max;
+return 0;
 }
