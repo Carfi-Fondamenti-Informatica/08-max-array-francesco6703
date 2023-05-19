@@ -1,3 +1,4 @@
+#include <iostream>
 #include "lib.h"
 int funzione(int numeri[], int i)
 {
