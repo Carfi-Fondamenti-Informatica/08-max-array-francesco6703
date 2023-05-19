@@ -1,17 +1,17 @@
 #include <iostream>
-#include "lib.h"
- 
+#include "cmake-build-debug/lib.h"
+
 int main() {
 int i;
 int a;
 int max;
 int numeri[i];
-std:: cin >> i;
+std::cin >> i;
 for (a=0; a<i; a++)
     {
-    	std:: cin >> numeri[a];
+    	std::cin >> numeri[a];
     }
 max=funzione(numeri, i);
-std:: cout << max;
+std::cout << max;
 return 0;
 }
