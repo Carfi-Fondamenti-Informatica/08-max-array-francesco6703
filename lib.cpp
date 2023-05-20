@@ -1,18 +1,19 @@
 #include "lib.h"
 
 #include <iostream>
+using namespace std;
 
 int funzione(int numeri[], int i)
 {
-    std::cin >> i;
+    cin >> i;
     while (i<1)
     {
-        std::cin >> i;
+        cin >> i;
     }
     int x=1;
     for (int a=0; a<i; a++)
     {
-        std::cin >> numeri[a];
+        cin >> numeri[a];
     }
     int max=numeri[0];
     while (x<i)
