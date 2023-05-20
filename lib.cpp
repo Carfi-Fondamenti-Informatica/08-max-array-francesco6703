@@ -1,25 +1,15 @@
-#include <iostream>
 #include "lib.h"
 int funzione(int numeri[], int i)
 {
-    std::cin >> i;
-    while (i<1)
-{
-	std::cin >> i;
-}
-    int x=1;
-    for (int a=0; a<i; a++)
-    {
-        std::cin >> numeri[a];
-    }
+    int b=1;
     int max=numeri[0];
-    while (x<i)
+    while (b<i)
     {
-        if(numeri[x]>max)
+        if(numeri[b]>max)
         {
-            max=numeri[x];
+            max=numeri[b];
         }
-        x++;
+        b=b+1;
     }
     return max;
 }
