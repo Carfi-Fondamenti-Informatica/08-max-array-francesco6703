@@ -6,6 +6,7 @@ int main() {
     int a=0;
     int max;
     int numeri[a];
+    cin >> i;
     max = funzione(numeri, i);
     cout << max;
     return 0;
