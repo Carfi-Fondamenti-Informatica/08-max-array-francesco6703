@@ -3,11 +3,20 @@
 
 
 int main() {
-    int i=0;
+    int i;
     int a=0;
     int max;
-    int numeri[a];
-    max = funzione(numeri, i);
+    int numeri[i];
+    std::cin >> i;
+    while (i<1)
+{
+	std::cin >> i;
+}
+    for (int a=0; a<i; a++)
+    {
+        std::cin >> numeri[i];
+    }
+    max = funzione(numeri[i], i);
     std::cout << max;
     return 0;
 }
