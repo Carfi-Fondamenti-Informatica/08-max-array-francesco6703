@@ -5,7 +5,6 @@ using namespace std;
 
 int funzione(int numeri[], int i)
 {
-    cin >> i;
     while (i<1)
     {
         cin >> i;
