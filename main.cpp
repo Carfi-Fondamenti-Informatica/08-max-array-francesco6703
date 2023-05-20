@@ -16,7 +16,7 @@ int main() {
     {
         std::cin >> numeri[i];
     }
-    max = funzione(numeri[i], i);
+    max = funzione(numeri, i);
     std::cout << max;
     return 0;
 }
