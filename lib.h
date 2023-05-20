@@ -1,1 +1,1 @@
-int funzione (int[], int); 
+double funzione(double numeri[], int i);
