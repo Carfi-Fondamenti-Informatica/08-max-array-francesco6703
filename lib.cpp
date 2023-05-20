@@ -1,27 +1,12 @@
 #include "lib.h"
 
-#include <iostream>
-using namespace std;
+double funzione(double numeri[], int i) {
+    double max = numeri[0];
 
-int funzione(int numeri[], int i)
-{
-    while (i<1)
-    {
-        cin >> i;
-    }
-    int x=1;
-    for (int a=0; a<i; a++)
-    {
-        cin >> numeri[a];
-    }
-    int max=numeri[0];
-    while (x<i)
-    {
-        if(numeri[x]>max)
-        {
-            max=numeri[x];
+    for (int b = 1; b < i; b++) {
+        if (numeri[b] > max) {
+            max = numeri[b];
         }
-        x++;
     }
     return max;
 }
